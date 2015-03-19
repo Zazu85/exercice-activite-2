@@ -1,0 +1,47 @@
+h2
+{
+	color: #2b69cf;
+	text-align: center;
+}
+
+*
+{
+	background-image: url("fond/pierre.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: 'geometry_soft_probold_n';
+    src: url('Geometry_Soft_Pro-Bold_N-webfont.eot');
+    src: url('Geometry_Soft_Pro-Bold_N-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Geometry_Soft_Pro-Bold_N-webfont.woff') format('woff'),
+         url('Geometry_Soft_Pro-Bold_N-webfont.ttf') format('truetype'),
+         url('Geometry_Soft_Pro-Bold_N-webfont.svg#geometry_soft_probold_n') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+* 
+{
+	font-family: 'geometry_soft_probold_n', Arial, Candara;
+}
+
+h1 + citation
+{
+	text-align: center;
+	border: 5px ridge;
+}
+
+h1
+{
+	text-shadow: 4px 5px 4px white;
+}
+
+a
+{
+	box-shadow: 20px 10px 20px black;
+}
